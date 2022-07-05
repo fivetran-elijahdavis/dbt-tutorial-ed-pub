@@ -1,0 +1,8 @@
+
+
+============================== 2022-05-10 20:30:41.747914 | e685d829-e2de-472c-bc92-b173a73e64e7 ==============================
+20:30:41.747914 [info ] [MainThread]: Running with dbt=1.0.4
+20:30:41.748108 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/elijahdavis/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='snowflake', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+20:30:41.748184 [debug] [MainThread]: Tracking: tracking
+20:30:41.768017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043f27f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043f2940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1043f28b0>]}
+20:30:41.768680 [info ] [MainThread]: Setting up your profile.

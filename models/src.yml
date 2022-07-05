@@ -1,0 +1,9 @@
+version: 2
+sources:
+- name: salesforce
+schema: dbt_elijah
+database: elijah_salesforce
+tables:
+- name: fivetran_formula
+- name: account #this is an example table
+- name: opportunity #this is an example table
