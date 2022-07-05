@@ -28,6 +28,16 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
+vars:
+    fivetran_log_database: ELIJAH_DB
+    fivetran_log_schema: ELIJAH_FIVETRAN_LOG
+    fivetran_log_using_transformations: false # this will disable all transformation + trigger_table logic
+    fivetran_log_using_triggers: false # this will disable only trigger_table logic 
+    fivetran_log_using_account_membership: false # this will disable only the account membership logic
+    fivetran_log_using_destination_membership: false # this will disable only the destination membership logic
+    fivetran_log_using_user: false # this will disable only the user logic
+
+
 # In this example config, we tell dbt to build all models in the example/ directory
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
