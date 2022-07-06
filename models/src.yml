@@ -1,9 +1,0 @@
-version: 2
-sources:
-- name: salesforce
-schema: elijah_salesforce_sandbox
-database: elijah_db
-tables:
-- name: fivetran_formula
-- name: account #this is an example table
-- name: opportunity #this is an example table
