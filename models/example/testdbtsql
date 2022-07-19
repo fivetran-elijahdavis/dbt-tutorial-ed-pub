@@ -1,1 +1,1 @@
-{{ salesforce_formula_utils.sfdc_formula_view(source_table='fivetran_sfdc_example_table') }}
+{{ salesforce_formula_utils.sfdc_formula_view(source_table='FIVETRAN_FORMULA') }}
